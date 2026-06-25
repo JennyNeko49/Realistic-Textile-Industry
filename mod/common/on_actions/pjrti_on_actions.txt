@@ -1,0 +1,13 @@
+﻿on_game_started = {
+    on_actions = {
+        on_pjrti_start
+    }
+}
+on_pjrti_start = {
+    effect = {
+        set_global_variable = {
+            name = pjrti_is_loaded
+            value = yes
+        }
+    }
+}
